@@ -7,7 +7,7 @@ h1 {
   text-align: center;
   }
 
-.image1 {
+#featured-property img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -20,21 +20,34 @@ figure {
   font-size: smaller;
 }
 
-nav {
+nav { 
   text-align: center;
-}
-
-a { 
-  background-color: lightgrey;
   display: block;
   padding-left: 10px;
   padding-right: 10px;
-  }
+}
   
 
-.featured-property {
+#featured-property p {
   width: 800px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-  
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lightgrey;
+}
+
+#details div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+  /* float: left; */
+}
+
+#details {
+  display: flex;
+}
